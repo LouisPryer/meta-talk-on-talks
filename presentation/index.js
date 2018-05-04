@@ -180,7 +180,7 @@ export default class Presentation extends React.Component {
           </List>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Establish a rough plan first
           </Heading>
         </Slide>
@@ -188,45 +188,45 @@ export default class Presentation extends React.Component {
           <Image alt='Screenshot of my google document for this talk' src={images.plan.replace('/', '')} />
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Don't go into too much depth
           </Heading>
         </Slide>
         <Slide bgColor='tertiary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Highlight important points.
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Don't worry about slide count
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Focus on the content
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             What slide deck software to use?
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Just keep the slides simple
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             What about animations and transitions?
           </Heading>
         </Slide>
         <Slide height='100%' bgColor='secondary' textColor='primary'>
-          <Image height='40vw' alt='Just no' src={images.no.replace('/', '')} />
+          <Image height='45vw' alt='Just no' src={images.no.replace('/', '')} />
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Slide Design Quick Fire Round!
           </Heading>
         </Slide>
@@ -236,37 +236,37 @@ export default class Presentation extends React.Component {
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Make the text big!
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Use a decent colour scheme
           </Heading>
         </Slide>
         <Slide bgColor='#a0d6f5' textColor='#f50207'>
-          <Heading size={1} fit caps lineHeight textColor='#f50207'>
+          <Heading size={1} caps lineHeight textColor='#f50207'>
             Not like this
           </Heading>
         </Slide>
         <Slide bgColor='#2B061E' textColor='#875053'>
-          <Heading size={1} fit caps lineHeight textColor='#875053'>
+          <Heading size={1} caps lineHeight textColor='#875053'>
             Or like this
           </Heading>
         </Slide>
         <Slide bgColor='#F1E8B8' textColor='#191919'>
-          <Heading size={1} fit caps lineHeight textColor='#191919'>
+          <Heading size={1} caps lineHeight textColor='#191919'>
             Much better!
           </Heading>
         </Slide>
         <Slide bgImage={images.waves.replace('/', '')} bgDarken={0.75}>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Contrast is important
           </Heading>
         </Slide>
         <Slide bgImage={images.photos.replace('/', '')} bgDarken={0.75}>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Photos
           </Heading>
         </Slide>
@@ -276,8 +276,8 @@ export default class Presentation extends React.Component {
           </Heading>
           <Image height='50%' width='50%' src={images.ocean.replace('/', '')} alt='Barrel Wave near the beach' />
         </Slide>
-        <Slide bgImage={images.surfer.replace('/', '')}>
-          <Heading className='imageFillExample' size={1} fit caps lineHeight textColor='primary'>
+        <Slide bgImage={images.surfer.replace('/', '')} bgDarken={0.75}>
+          <Heading size={1} fit caps lineHeight textColor='primary'>
             Fill the entire slide
           </Heading>
         </Slide>
@@ -287,12 +287,12 @@ export default class Presentation extends React.Component {
           </Heading>
         </Slide>
         <Slide bgColor='tertiary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Change colour scheme for highlights
           </Heading>
         </Slide>
         <Slide bgImage={images.projector.replace('/', '')} bgDarken={0.75}>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Design with the projector in mind
           </Heading>
         </Slide>
@@ -327,18 +327,18 @@ export default class Presentation extends React.Component {
             Practice
           </Heading>
         </Slide>
-        <Slide bgImage={images.binoculars.replace('/', '')} bgDarken={0.75} textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
-            Get there early
-          </Heading>
-        </Slide>
         <Slide bgImage={images.mic.replace('/', '')} bgDarken={0.75}>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Record yourslef while practicing
           </Heading>
         </Slide>
+        <Slide bgImage={images.binoculars.replace('/', '')} bgDarken={0.75} textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
+            Get there early
+          </Heading>
+        </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Always have a backup
           </Heading>
         </Slide>
@@ -363,38 +363,38 @@ export default class Presentation extends React.Component {
           </List>
         </Slide>
         <Slide bgImage={images.megaphone.replace('/', '')} bgDarken={0.75}>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Project your voice
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Make sure your phone is off
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Charge up your laptop beforehand
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Screen Brightness
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Sort out display settings
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Pre talk rituals
           </Heading>
         </Slide>
         <Slide bgImage={images.hugeMistake.replace('/', '')} />
         <Slide bgColor='tertiary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Enjoy Yourself!
           </Heading>
         </Slide>
@@ -420,42 +420,45 @@ export default class Presentation extends React.Component {
           </List>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             You did it!
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Questions and Answers
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Stay humble
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Share the answer online afterwards
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Don't understand the question?
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
-            Hecklers. You have the power!
+          <Heading size={1} caps lineHeight textColor='primary'>
+            Hecklers?
+          </Heading>
+          <Heading size={1} caps lineHeight textColor='primary'>
+            You have the power!
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Defuse the situation and move on
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={1} caps lineHeight textColor='primary'>
             Organisers are there to help
           </Heading>
         </Slide>
@@ -472,7 +475,7 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide bgImage={images.thanks.replace('/', '')} textColor='primary' />
         <Slide bgColor='secondary' textColor='primary'>
-          <Heading size={1} fit caps lineHeight textColor='primary'>
+          <Heading size={3} caps lineHeight textColor='primary'>
             Follow me at
           </Heading>
           <List fit textSize='12'>

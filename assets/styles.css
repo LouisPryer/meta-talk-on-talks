@@ -1,3 +1,7 @@
 .recap-list li {
   font-size: 54px;
 }
+
+.muted {
+  color: #757575;
+}
