@@ -103,7 +103,7 @@ export default class Presentation extends React.Component {
           </Heading>
         </Slide>
         <Slide transation='fade' bgColor='secondary' textColor='tertiary'>
-          <BlockQuote>
+          <BlockQuote textColor='tertiary'>
             <Quote textColor='tertiary'>Myth: All public speakers are comfortable speaking to a crowd</Quote>
           </BlockQuote>
         </Slide>
@@ -113,10 +113,10 @@ export default class Presentation extends React.Component {
           </Heading>
         </Slide>
         <Slide bgImage={images.excitement.replace('/', '')} bgDarken={0.5} transation='fade' textColor='primary'>
-          <Heading size={1} fit caps textColor='primary' padding={5}>
+          <Heading size={1} fit bold caps textColor='primary' padding={5}>
             When were you last excited?
           </Heading>
-          <Heading margin='10px 0 0' textColor='primary' size={1} fit bold>
+          <Heading margin='10px 0 0' textColor='primary' size={2} fit bold caps>
             What did it feel like?
           </Heading>
         </Slide>
@@ -223,7 +223,7 @@ export default class Presentation extends React.Component {
         <Slide bgColor='secondary' textColor='tertiary'>
           <Image alt='Screenshot of my google document for this talk' src={images.plan.replace('/', '')} />
         </Slide>
-        <Slide bgImage={images.deep.replace('/', '')} bgDarken={0.5} textColor='primary'>
+        <Slide bgImage={images.deep.replace('/', '')} bgDarken={0.6} textColor='primary'>
           <Heading size={1} caps lineHeight textColor='primary'>
             Don't go into too much depth
           </Heading>
@@ -238,12 +238,12 @@ export default class Presentation extends React.Component {
             Don't worry about slide count
           </Heading>
         </Slide>
-        <Slide bgImage={images.focus.replace('/', '')} textColor='primary'>
+        <Slide bgImage={images.focus.replace('/', '')} bgDarken={0.6} textColor='primary'>
           <Heading size={1} caps lineHeight textColor='primary'>
             Focus on the content
           </Heading>
         </Slide>
-        <Slide bgImage={images.tools.replace('/', '')} bgDarken={0.5} textColor='primary'>
+        <Slide bgImage={images.tools.replace('/', '')} bgDarken={0.6} textColor='primary'>
           <Heading size={1} caps lineHeight textColor='primary'>
             What slide deck software to use?
           </Heading>
@@ -296,12 +296,12 @@ export default class Presentation extends React.Component {
             Much better!
           </Heading>
         </Slide>
-        <Slide bgImage={images.waves.replace('/', '')} bgDarken={0.5}>
+        <Slide bgImage={images.waves.replace('/', '')} bgDarken={0.6}>
           <Heading size={1} caps lineHeight textColor='primary'>
             Contrast is important
           </Heading>
         </Slide>
-        <Slide bgImage={images.photos.replace('/', '')} bgDarken={0.5}>
+        <Slide bgImage={images.photos.replace('/', '')} bgDarken={0.6}>
           <Heading size={1} caps lineHeight textColor='primary'>
             Photos
           </Heading>
@@ -312,13 +312,13 @@ export default class Presentation extends React.Component {
           </Heading>
           <Image height='50%' width='50%' src={images.ocean.replace('/', '')} alt='Barrel Wave near the beach' />
         </Slide>
-        <Slide bgImage={images.surfer.replace('/', '')} bgDarken={0.5}>
+        <Slide bgImage={images.surfer.replace('/', '')} bgDarken={0.6}>
           <Heading size={1} fit caps lineHeight textColor='primary'>
             Fill the entire slide
           </Heading>
         </Slide>
         <Slide bgColor='secondary' textColor='tertiary'>
-          <Heading textFont='Times New Roman' className='imageFileExample' size={1} fit caps lineHeight textColor='tertiary'>
+          <Heading textFont='Papyrus' className='imageFileExample' size={1} fit caps lineHeight textColor='tertiary'>
             Choose a decent font
           </Heading>
         </Slide>
@@ -327,7 +327,7 @@ export default class Presentation extends React.Component {
             Change colour scheme for highlights
           </Heading>
         </Slide>
-        <Slide bgImage={images.projector.replace('/', '')} bgDarken={0.5}>
+        <Slide bgImage={images.projector.replace('/', '')} bgDarken={0.6}>
           <Heading size={1} caps lineHeight textColor='primary'>
             Design with the projector in mind
           </Heading>
@@ -385,7 +385,7 @@ export default class Presentation extends React.Component {
           <List textSize='56' className='recap-list'>
             <ListItem textSize='56'>Scope the venue out by getting there early</ListItem>
             <ListItem textSize='56'>Practice x3</ListItem>
-            <ListItem textSize='56'>Record yourself while practiing</ListItem>
+            <ListItem textSize='56'>Record yourself while practicing</ListItem>
             <ListItem textSize='56'>Always have a backup</ListItem>
           </List>
         </Slide>
